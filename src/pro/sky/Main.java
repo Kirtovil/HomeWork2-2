@@ -5,7 +5,6 @@ public class Main {
     public static void printStudent(Student student) {
         System.out.println(student.toString());
     }
-
     public static void betterHonor (Gryffendor gryffendorA, Gryffendor gryffendorB) {
         if (gryffendorA.getHonor() < gryffendorB.getHonor()) {
             System.out.println("Честь " + gryffendorB.getName() + ", больше чем у " + gryffendorA.getName());
